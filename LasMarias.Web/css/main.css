@@ -1,0 +1,263 @@
+header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.home-text {
+    padding: 40px 15%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.home-banner {
+    background: url(../Image/peakpx.jpg) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBackground {
+    background: url(../Image/peakpx.jpg) no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.delivery-text {
+    text-align: center;
+}
+
+.LoginHeader {
+    text-align: center;
+}
+
+.loginBody {
+    margin: 0 auto;
+    width: 500px;
+}
+
+div.LoginHeader h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.LoginHeader h2 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.loginBody form {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+div.loginInputContainer label {
+    margin-top: 20px;
+}
+
+div.loginInputContainer label {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.loginInputContainer input {
+    height: 30px;
+    width: 100%;
+    border: 2px solid #d40339;
+    font-size: 20px;
+    padding: 5px;
+}
+
+div.loginButtonContainer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.loginButtonContainer button,
+div.loginButtonContainer a {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #fca311;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.inputCheckbox label {
+    color: white;
+}
+
+.delivery-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-button {
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #fca311;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.RegisterLabel {
+    color: chartreuse;
+}
+
+.RegisterLabel1 {
+    color: #d40339;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    .home-text {
+        padding: 30px 10%;
+    }
+
+    div.LoginHeader h1,
+    div.LoginHeader h2 {
+        font-size: 60px;
+    }
+
+    div.loginBody {
+        width: 400px;
+    }
+
+    div.loginBody form {
+        width: 400px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 35px;
+    }
+
+    .home-text {
+        padding: 20px 5%;
+    }
+
+    div.LoginHeader h1,
+    div.LoginHeader h2 {
+        font-size: 50px;
+    }
+
+    div.loginBody {
+        width: 300px;
+    }
+
+    div.loginBody form {
+        width: 300px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-banner {
+        height: 600px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .home-text {
+        padding: 10px 2%;
+    }
+
+    div.LoginHeader h1,
+    div.LoginHeader h2 {
+        font-size: 40px;
+    }
+
+    div.loginBody {
+        width: 100%;
+        padding: 10px;
+    }
+
+    div.loginBody form {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-banner {
+        height: 400px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    div.LoginHeader h1,
+    div.LoginHeader h2 {
+        font-size: 30px;
+    }
+
+    div.loginBody form {
+        padding: 15px;
+    }
+
+    .delivery-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-banner {
+        height: 300px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    div.LoginHeader h1,
+    div.LoginHeader h2 {
+        font-size: 25px;
+    }
+
+    .delivery-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}

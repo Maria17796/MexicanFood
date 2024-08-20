@@ -1,0 +1,154 @@
+<div class="container">
+  <div class="row mt-3">
+    <div class="col-12 col-lg-6">
+      <div class="input-group">
+        <span class="input-group-text">Filter</span>
+        <input type="text" id="textFilter" class="form-control" />
+        <button class="btn btn-secondary" id="buttonSuche">
+          <iconify-icon icon="bi:search"></iconify-icon>
+        </button>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 mt-2 mt-lg-0">
+      <div class="input-group">
+        <span class="input-group-text">Sortieren nach</span>
+        <select id="selectSort" class="form-select">
+          <option value="0">Name (aufsteigend)</option>
+          <option value="1">Name (absteigend)</option>
+          <option value="2">Preis (aufsteigend)</option>
+          <option value="3">Preis (absteigend)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-2">
+    <div class="col-12 text-end">
+      <span class="fs-08 fw-bold" id="infoText">Keine Daten gefunden!</span>
+    </div>
+  </div>
+
+  <div class="row mt-1">
+    <div class="col-12">
+      <div class="table-responsive">
+        <table class="table" id="tableArtikel">
+          <thead>
+            <tr>
+              <th colspan="6" class="border-bottom p-1"></th>
+            </tr>
+            <tr>
+              <th>
+                <button class="btn btn-outline-light" id="buttonNeu">
+                  <iconify-icon icon="bi:artikel-add" class="me-2"></iconify-icon
+                  >Neu
+                </button>
+              </th>
+              <th>Name</th>
+              <th>Nummer</th>
+              <th>Anlagedatum</th>
+              <th>Kategorie</th>
+              <th>Preis</th>
+            </tr>
+            <tr>
+              <th colspan="6" class="border-bottom p-1"></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  class="modal fade"
+  id="modalArtikel"
+  data-bs-backdrop="static"
+  data-bs-keyboard="true"
+  tabindex="-1"
+  aria-labelledby="modalTitlePerson"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalTitleArtikel">Artikeldetail</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <label for="textName">Name</label
+            ><iconify-icon icon="bi:asterisk" class="ms-2 fs-09"></iconify-icon>
+            <input type="text" id="textName" class="form-control" />
+            <div class="invalid-feedback">Wert fehlt!!!</div>
+          </div>
+          <div class="col-12 col-lg-6 mt-2 mt-lg-0">
+            <label for="textVorname">Preis</label
+            ><iconify-icon icon="bi:asterisk" class="ms-2 fs-09"></iconify-icon>
+            <input type="text" id="textVorname" class="form-control" />
+            <div class="invalid-feedback">Wert fehlt!!!</div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 col-lg-6">
+            <label for="textekpreis">ekpreis</label>
+            <input type="text" id="textekpreis" class="form-control" />
+          </div>
+          <div class="row mt-2">
+            <div class="col-12 col-lg-6">
+              <label for="textvkpreis">vkpreis</label>
+              <input type="text" id="textvkpreis" class="form-control" />
+            </div>
+            <div class="col-12 col-lg-6 mt-2 mt-lg-0">
+              <label for="dateAnlage">Anlagedatum</label>
+              <input type="date" id="dateAnlage" class="form-control" />
+            </div>
+          </div>
+		</div>
+          <div class="row mt-2">
+            <div class="col-12">
+              <label for="selectKategorie">Kategorie</label>
+              <select id="selectKategorie" class="form-select">
+                <option value="0">Vorspeise</option>
+                <option value="1">Hauptspeise</option>
+                <option value="2">Nachhspeisen</option>
+                <option value="3">Getränke</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-primary d-flex"
+            id="buttonSpeichern"
+          >
+            <iconify-icon
+              icon="bi:check2"
+              class="fs-5 me-2"
+              style="margin-top: 3px"
+            ></iconify-icon
+            >Speichern
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary d-flex"
+            data-bs-dismiss="modal"
+          >
+            <iconify-icon
+              icon="bi:x"
+              style="margin-top: 3px"
+              class="fs-5 me-2"
+            ></iconify-icon
+            >Abbrechen
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

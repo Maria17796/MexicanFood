@@ -1,0 +1,6 @@
+@LasMarias.Dataservice_HostAddress = http://localhost:49007
+
+GET {{LasMarias.Dataservice_HostAddress}}
+Accept: application/json
+
+###

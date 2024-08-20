@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "LasMarias.Dataservice.Controllers.PersonController",
+    "Method": "Get",
+    "RelativePath": "api/Person",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

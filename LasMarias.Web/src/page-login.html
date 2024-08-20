@@ -1,0 +1,24 @@
+  <div class="loginBody">
+    <div class="container">
+      <div class="row">
+        <body>
+        <div>
+          <h1>Login</h1>
+        </div>
+        <form action="http://localhost:49007/api/person/login "method="POST">
+          <div class="loginInputContainer">
+              <label for="textBenutzername">Benutzername</label>
+              <input id="textBenutzername" name="benutzername" placeholder="Benutzername" type="text" name="benutzername" required>
+          </div>
+          <div class="loginInputContainer">
+              <label for="textPasswort">Passwort</label>
+              <input id="textPasswort" name="passwort" placeholder="Passwort" type="password" name="passwort" required>
+          </div>
+          <div class="loginButtonContainer">
+              <button class="btn btn-secondary" id="buttonAnmelden" >Anmelden</button>
+              <a class="btn btn-secondary" href="#register">Registrieren</a>
+          </div>
+      </form>
+      </div>
+  </div>
+</body>

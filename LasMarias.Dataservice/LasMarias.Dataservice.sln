@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LasMarias.Dataservice", "LasMarias.Dataservice\LasMarias.Dataservice.csproj", "{95535CB6-5711-4D53-8668-94B9A31F3D93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95535CB6-5711-4D53-8668-94B9A31F3D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95535CB6-5711-4D53-8668-94B9A31F3D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95535CB6-5711-4D53-8668-94B9A31F3D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95535CB6-5711-4D53-8668-94B9A31F3D93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03AAA103-B82F-4114-919F-76F73A724929}
+	EndGlobalSection
+EndGlobal

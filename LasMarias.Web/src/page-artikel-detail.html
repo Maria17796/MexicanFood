@@ -1,0 +1,170 @@
+<div class="container">
+
+	<div class="row mt-3 border-bottom border-1 pb-3">
+		<div class="col-12">
+			<ul class="nav nav-pills d-flex justify-content-center">
+				<li class="nav-item">
+					<button type="button" class="nav-link" data-bs-toggle="collapse" data-bs-target="#collapseDetail" aria-expanded="false" aria-controls="collapseDetail">Details</button>
+				</li>
+				<li class="nav-item">
+					<button type="button" class="nav-link" data-bs-toggle="collapse" data-bs-target="#collapseKategorie" aria-expanded="false" aria-controls="collapseKategorie">Kategorie</button>
+				</li>
+				<li class="nav-item">
+					<button type="button" class="nav-link" data-bs-toggle="collapse" data-bs-target="#collapseBild" aria-expanded="false" aria-controls="collapseBild">Bild</button>
+				</li>
+				<li class="nav-item">
+					<button type="button" class="nav-link" data-bs-toggle="collapse" data-bs-target="#collapseDatei" aria-expanded="false" aria-controls="collapseDatei">Datei</button>
+				</li>
+				<li class="nav-item">
+					<button type="button" class="nav-link" data-bs-toggle="collapse" data-bs-target="#collapseBewegung" aria-expanded="false" aria-controls="collapseBewegung">Ein/Ausgänge</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="collapse mt-3" data-info="main" id="collapseDetail">
+		<div class="row">
+			<div class="col-12 col-lg-4 text-start text-lg-end pt-lg-2">
+				<label for="textNummer">Nummer</label>
+			</div>
+			<div class="col-12 col-lg-4">
+				<input type="text" id="textNummer" class="form-control" />
+			</div>
+		</div>
+		
+		<div class="row mt-3">
+			<div class="col-12 col-lg-4 text-start text-lg-end pt-lg-2">
+				<label for="textName">Name</label>
+			</div>
+			<div class="col-12 col-lg-8">
+				<input type="text" id="textName" class="form-control" />
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-12 col-lg-4 text-start text-lg-end pt-lg-2">
+				<label for="textHersteller">Hersteller</label>
+			</div>
+			<div class="col-12 col-lg-8">
+				<input type="text" id="textHersteller" class="form-control" />
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-12 col-lg-4 text-start text-lg-end pt-lg-2">
+				<label for="numberPackungsGroesse">Packungsgröße</label>
+			</div>
+			<div class="col-12 col-lg-4">
+				<input type="number" id="numberPackungsGroesse" class="form-control" />
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-12 col-lg-4 text-start text-lg-end pt-lg-2">
+				<label for="textPackungsEinheit">Packungseinheit</label>
+			</div>
+			<div class="col-12 col-lg-4">
+				<input type="text" id="textPackungsEinheit" class="form-control" />
+			</div>
+		</div>
+	</div>
+		
+	<div class="collapse mt-3" data-info="main" id="collapseKategorie">
+		<div class="row">
+			<div class="col-12 offset-lg-4 col-lg-4" id="colKategorieBaum"></div>
+		</div>
+	</div>
+
+	<div class="collapse mt-3" data-info="main" id="collapseDatei">
+
+		<div class="col-12 d-flex justify-content-center">
+			<div class="col-12 col-lg-4 border border-3 rounded rounded-5" style="height:12rem; border-style: dashed!important;text-align: center; align-content: center;" id="divDatei">
+				<iconify-icon icon="bi:file-earmark-arrow-up" style="font-size:4rem; color:#999999;"></iconify-icon>
+				<input type="file" class="d-none" id="fileDatei" />
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-12 table-responsive">
+				<table class="table table-striped" id="tableDatei">
+					<thead>
+						<tr>
+							<th></th>
+							<th>Name</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="collapse mt-3" data-info="main" id="collapseBild">
+		<div class="col-12 d-flex justify-content-center">
+			<div class="col-12 col-lg-4 border border-3 rounded rounded-5" style="height:12rem; border-style: dashed!important;text-align: center; align-content: center;" id="divBild">
+				<iconify-icon icon="bi:camera" style="font-size:4rem; color:#999999;"></iconify-icon>
+				<input type="file" class="d-none" id="fileBild" />
+			</div>
+			<img src="" class="d-none" id="imgBild" />
+		</div>
+	</div>
+
+	<div class="collapse mt-3" data-info="main" id="collapseBewegung">
+
+		<div class="row mt-3">
+			<div class="col-12 table-responsive">
+				<table class="table table-striped" id="tableBewegung">
+					<thead>
+						<tr>
+							<th>
+								<button type="button" class="btn btn-outline-light" id="buttonBewegungNeu"><iconify-icon icon="bi:plus-lg" class="me-2"></iconify-icon>Neu</button>
+							</th>
+							<th>Datum</th>
+							<th>Person</th>
+							<th>Anzahl</th>
+							<th>Bemerkung</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="modal fade" id="modalBewegung" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="titleDialogBewegung" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="titleDialogBewegung">Bewegung erfassen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+				<div class="row mt-2">
+					<div class="col-12">
+						<label for="numberAnzahl">Anzahl</label>
+						<div class="input-group">
+							<button type="button" class="btn btn-light" id="buttonBewegungAnzahlPlus"><iconify-icon icon="bi:dash-square"></iconify-icon></button>
+							<input type="number" name="" id="numberAnzahl" class="form-control" />
+							<button type="button" class="btn btn-light" id="buttonBewegungAnzahlMinus"><iconify-icon icon="bi:plus-square"></iconify-icon></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-3">
+					<div class="col-12">
+						<label for="textBemerkung">Bemerkung</label>
+						<textarea class="form-control" id="textBemerkung" rows="5"></textarea>
+					</div>
+				</div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary"><iconify-icon icon="bi:floppy" class="me-2"></iconify-icon>Speichern</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><iconify-icon icon="bi:x-lg" class="me-2"></iconify-icon>Abbrechen</button>
+      </div>
+    </div>
+  </div>
+</div>

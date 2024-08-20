@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|c:\\web\\las_mariasprojekt\\las_marias\\las_marias (2)\\las_marias\\lasmarias.dataservice\\lasmarias.dataservice\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|solutionrelative:lasmarias.dataservice\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|c:\\web\\las_mariasprojekt\\las_marias\\las_marias (2)\\las_marias\\lasmarias.dataservice\\lasmarias.dataservice\\lasmarias.dataservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|solutionrelative:lasmarias.dataservice\\lasmarias.dataservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|c:\\web\\las_mariasprojekt\\las_marias\\las_marias (2)\\las_marias\\lasmarias.dataservice\\lasmarias.dataservice\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|solutionrelative:lasmarias.dataservice\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|c:\\web\\las_mariasprojekt\\las_marias\\las_marias (2)\\las_marias\\lasmarias.dataservice\\lasmarias.dataservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|solutionrelative:lasmarias.dataservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|c:\\web\\las_mariasprojekt\\las_marias\\las_marias (2)\\las_marias\\lasmarias.dataservice\\lasmarias.dataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95535CB6-5711-4D53-8668-94B9A31F3D93}|LasMarias.Dataservice\\LasMarias.Dataservice.csproj|solutionrelative:lasmarias.dataservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LasMarias.Dataservice.http",
+              "DocumentMoniker": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\LasMarias.Dataservice.http",
+              "RelativeDocumentMoniker": "LasMarias.Dataservice\\LasMarias.Dataservice.http",
+              "ToolTip": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\LasMarias.Dataservice.http",
+              "RelativeToolTip": "LasMarias.Dataservice\\LasMarias.Dataservice.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-11T07:29:20.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\Program.cs",
+              "RelativeDocumentMoniker": "LasMarias.Dataservice\\Program.cs",
+              "ToolTip": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\Program.cs",
+              "RelativeToolTip": "LasMarias.Dataservice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:58:13.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\appsettings.json",
+              "RelativeDocumentMoniker": "LasMarias.Dataservice\\appsettings.json",
+              "ToolTip": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\appsettings.json",
+              "RelativeToolTip": "LasMarias.Dataservice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-06T09:50:17.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "LasMarias.Dataservice\\Models\\Person.cs",
+              "ToolTip": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\Models\\Person.cs",
+              "RelativeToolTip": "LasMarias.Dataservice\\Models\\Person.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwF8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T08:00:52.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "LasMarias.Dataservice\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Web\\Las_MariasProjekt\\Las_Marias\\Las_Marias (2)\\Las_Marias\\LasMarias.Dataservice\\LasMarias.Dataservice\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "LasMarias.Dataservice\\Controllers\\PersonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T07:54:03.797Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
